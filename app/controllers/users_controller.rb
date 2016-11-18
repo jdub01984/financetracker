@@ -4,7 +4,8 @@ class UsersController < ApplicationController
     @user = current_user
   end
   
-  def destroy
+  def my_friends
+    
   end
   
 end
