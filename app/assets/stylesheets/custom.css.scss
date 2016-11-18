@@ -15,7 +15,8 @@
 }
 
 .user-name {
-  padding-top: 15px;
+  padding-top: 16px !important;
+  padding-bottom: 16px !important;
 }
 
 .nav.navbar-right li {
@@ -26,4 +27,10 @@
   .btn-danger:hover {
     background-color: darken(#D9534F, 20%) !important;
   }
+}
+
+.btn-logout {
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 90%;
 }
