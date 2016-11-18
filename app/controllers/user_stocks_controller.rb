@@ -76,7 +76,7 @@ class UserStocksController < ApplicationController
     respond_to do |format|
       format.html { redirect_to my_portfolio_path, notice: 'Stock was successfully removed from portfolio.' }
       format.json { head :no_content }
-    end
+    enduser.stocks
   end
 
   private
